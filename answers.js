@@ -41,3 +41,14 @@ const ninjaTurtles = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo'];
 for (const members of ninjaTurtles){
     console.log(members.toUpperCase())
 }
+
+    // Methods, Revisited //
+const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
+console.log(favMovies[8]);
+console.log(favMovies.sort()); // it sorted the array in alphabetical order
+console.log(favMovies.pop()); // after console.log(favMovies), Volver dropped from the list
+console.log(favMovies.push('Guardians of the Galaxy')); // after console.log(favMovies), Guardians of the Galaxy was added to the bottom of the list
+console.log(favMovies.reverse()); // the list flipped over to show 'Guardians of the Galaxy' on top and 'Black Panther' at the bottom of the list
+console.log(favMovies.shift()); // after console.log(favMovies), Guardians of the Galaxy dropped from the top of the list
+console.log(favMovies.unshift()); // after console.log(favMovies), the list was still the same as shift... nothing happened
+console.log(favMovies);
