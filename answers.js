@@ -52,3 +52,13 @@ console.log(favMovies.reverse()); // the list flipped over to show 'Guardians of
 console.log(favMovies.shift()); // after console.log(favMovies), Guardians of the Galaxy dropped from the top of the list
 console.log(favMovies.unshift()); // after console.log(favMovies), the list was still the same as shift... nothing happened
 console.log(favMovies);
+
+    // Where is Waldo //
+const whereIsWaldo = [["Timmy", "Frank"], "Eggbert", ["Lucinda", "Jacc", "Neff", "Snoop"], ["Petunia", ["Baked Goods", "Waldo"]]];
+
+console.log(whereIsWaldo.splice[1]);
+
+whereIsWaldo[2][2] = "No One";
+console.log(whereIsWaldo);
+
+console.log(whereIsWaldo[3][1][1]);
