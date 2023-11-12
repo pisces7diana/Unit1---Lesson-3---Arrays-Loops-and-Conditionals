@@ -44,6 +44,16 @@ for (const members of ninjaTurtles){
 }
 
     // Methods, Revisited //
+// const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
+// console.log(favMovies[8]);
+// console.log(favMovies.sort()); // it sorted the array in alphabetical order
+// console.log(favMovies.pop()); // after console.log(favMovies), Volver dropped from the list
+// console.log(favMovies.push('Guardians of the Galaxy')); // after console.log(favMovies), Guardians of the Galaxy was added to the bottom of the list
+// console.log(favMovies.reverse()); // the list flipped over to show 'Guardians of the Galaxy' on top and 'Black Panther' at the bottom of the list
+// console.log(favMovies.shift()); // after console.log(favMovies), Guardians of the Galaxy dropped from the top of the list
+// console.log(favMovies.unshift()); // after console.log(favMovies), the list was still the same as shift... nothing happened
+// console.log(favMovies.splice["Django Unchained"]); I tried this and console.log(favMovies); and it kept showing "Django Unchained" on the list
+
 const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
 console.log(favMovies[8]);
 console.log(favMovies.sort()); // it sorted the array in alphabetical order
@@ -52,7 +62,15 @@ console.log(favMovies.push('Guardians of the Galaxy')); // after console.log(fav
 console.log(favMovies.reverse()); // the list flipped over to show 'Guardians of the Galaxy' on top and 'Black Panther' at the bottom of the list
 console.log(favMovies.shift()); // after console.log(favMovies), Guardians of the Galaxy dropped from the top of the list
 console.log(favMovies.unshift()); // after console.log(favMovies), the list was still the same as shift... nothing happened
-// console.log(favMovies.splice["Django Unchained"]); I tried this and console.log(favMovies); and it kept showing "Django Unchained" on the list
+console.log(favMovies.splice(14, 1, "Avatar"));
+console.log(favMovies.slice(9,18));
+
+const slice = ["Howl's Moving Castle", 'Harry Potter', 'Harry Potter', 'Fried Green Tomatoes', 'Fast and Furious', 'Avatar', 'Conan the Barbarian', 'Cloud Atlas', 'Black Panther']
+    console.log(slice);
+
+console.log(favMovies);
+
+// I don't know why 'Fast and Furious' x2 was still on the list per bullet point
 
     // Where is Waldo //
 const whereIsWaldo = [["Timmy", "Frank"], "Eggbert", ["Lucinda", "Jacc", "Neff", "Snoop"], ["Petunia", ["Baked Goods", "Waldo"]]];
@@ -69,15 +87,13 @@ const whereIsWaldo = [["Timmy", "Frank"], "Eggbert", ["Lucinda", "Jacc", "Neff",
 
 // console.log(whereIsWaldo);
 
-    const whereIsWaldo = [["Timmy", "Frank"], "Eggbert", ["Lucinda", "Jacc", "Neff", "Snoop"], ["Petunia", ["Baked Goods", "Waldo"]]];
-
-    whereIsWaldo.splice(1,1);
+whereIsWaldo.splice(1,1);
     
-    console.log(whereIsWaldo);
+console.log(whereIsWaldo);
 
-    whereIsWaldo[1][2] = "No One";
+whereIsWaldo[1][2] = "No One";
 
-    console.log(whereIsWaldo);
+console.log(whereIsWaldo);
 
     // Excited Kitten //
 const kitten = 0
