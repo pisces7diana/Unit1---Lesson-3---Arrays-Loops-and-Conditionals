@@ -62,3 +62,19 @@ whereIsWaldo[2][2] = "No One";
 console.log(whereIsWaldo);
 
 console.log(whereIsWaldo[3][1][1]);
+
+    // Excited Kitten //
+const kitten = 0
+
+for (i = 0; i < 21; i++){
+    console.log("Love me, pet me! HSSSSSS!", i)
+}
+
+let kitty = ["human... why you taking pictures of me", "... the catnip made me do it", "... why does the red dot always get away"]
+
+kittyTalk[1];
+kittyTalk[2];
+kittyTalk[3];
+
+let meow = 0
+kittyTalk[meow]
