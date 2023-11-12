@@ -57,12 +57,27 @@ console.log(favMovies.unshift()); // after console.log(favMovies), the list was 
     // Where is Waldo //
 const whereIsWaldo = [["Timmy", "Frank"], "Eggbert", ["Lucinda", "Jacc", "Neff", "Snoop"], ["Petunia", ["Baked Goods", "Waldo"]]];
 
-console.log(whereIsWaldo.splice[1]); // I thought "Eggbert" has an index of [1]
+// console.log(whereIsWaldo.splice[1]); // I thought "Eggbert" has an index of [1] - error
 
-whereIsWaldo[2][2] = "No One";
-console.log(whereIsWaldo);
+// console.log(whereIsWaldo);
 
-console.log(whereIsWaldo[3][1][1]);
+// whereIsWaldo[2][2] = "No One"; - error
+
+// console.log(whereIsWaldo);
+
+// console.log(whereIsWaldo[3][1][1]); - error
+
+// console.log(whereIsWaldo);
+
+    const whereIsWaldo = [["Timmy", "Frank"], "Eggbert", ["Lucinda", "Jacc", "Neff", "Snoop"], ["Petunia", ["Baked Goods", "Waldo"]]];
+
+    whereIsWaldo.splice(1,1);
+    
+    console.log(whereIsWaldo);
+
+    whereIsWaldo[1][2] = "No One";
+
+    console.log(whereIsWaldo);
 
     // Excited Kitten //
 const kitten = 0
@@ -82,8 +97,7 @@ kittyTalk[3];
     // Find the Median //
 
 const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12]
+    nums[Math.floor(nums.length / 2)];
 Expected output:
 => 15
-    nums[Math.floor(nums.length / 2)];
-
 console.log(nums); // I'm not sure why the expected output wasn't 15 because the instructions suggested Math.floor

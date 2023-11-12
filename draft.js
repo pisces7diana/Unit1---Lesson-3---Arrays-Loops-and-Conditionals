@@ -1,24 +1,10 @@
- // Fizz Buzz //
-// 1.
-// 2.
-// 3.
-// 4.
+    // Where is Waldo //
+    const whereIsWaldo = [["Timmy", "Frank"], "Eggbert", ["Lucinda", "Jacc", "Neff", "Snoop"], ["Petunia", ["Baked Goods", "Waldo"]]];
 
-    // Wild Wild Wife //
-    const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"]
-    const sharky = ["Sharky", "shark", 20, "Left Coast"]
-    const plantee = ["Plantee", "plant",  5000 , "Mordor"]
-    const porgee = ["Porgee", "Porg", 186, "Ahch-To"]
-    const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"]
+    whereIsWaldo.splice(1,1);
+    
+    console.log(whereIsWaldo);
 
-plantee[2] = 5001;
-console.log(plantee);
+    whereIsWaldo[1][2] = "No One";
 
-wolfy[3] = "Gotham City";
-console.log(wolfy);
-
-dart[4] = "Hawkins"
-console.log(dart);
-
-wolfy[0] = "Gameboy";
-console.log(wolfy);
+    console.log(whereIsWaldo);
